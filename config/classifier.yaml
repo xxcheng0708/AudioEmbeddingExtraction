@@ -1,0 +1,29 @@
+classes: 2
+names: ["0", "1"]
+in_channels: 1
+dataset_dir: ""
+save_dir: ""
+train_size: {"0": 5000, "1": 5000}
+device: [0, 1, 2, 3]
+batch_size: 512
+train_ratio: 0.7
+val_ratio: 0.2
+test_ratio: 0.1
+# data augmentation
+invert_ratio: 0.0
+brightness: 0.0
+hue: 0.0
+saturation: 0.0
+contrast: 0.0
+left_right_flip: 0.0
+up_down_flip: 0.0
+rotate_degree: 0
+num_workers: 8
+epoch: 10
+model_name: resnet18
+lr: 0.01
+weight_decay: 0.0005
+img_norm: False
+step_size: 5
+gamma: 0.9
+
